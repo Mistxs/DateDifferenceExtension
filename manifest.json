@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Date Difference Extension",
+  "version": "1.0",
+  "description": "Extension that calculates the difference between two dates.",
+  "permissions": ["activeTab"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
